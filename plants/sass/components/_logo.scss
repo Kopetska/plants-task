@@ -1,0 +1,11 @@
+.logo-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 1px;
+}
+
+.logo-text {
+    font-family: 'Inika';
+    @include font(400, 16px, 1.31);
+    color: $black-color;
+}

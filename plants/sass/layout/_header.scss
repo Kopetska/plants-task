@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 110px;
+    background-color: $background-color;
+}
+
+.header-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

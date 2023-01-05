@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 109px;
+}
+
+.footer-text-block {
+    display: flex;
+}
+
+.footer-copyright,
+.footer-year,
+.footer-github-link,
+.school-link {
+    @include font(400, 20px, 2.5);
+    color: $black-color;
+}
+
+.footer-copyright,
+.footer-year {
+    margin-right: 20px;
+}
+
+.footer-github-link,
+.school-link {
+    transition: color 250ms linear;
+}
+
+.footer-github-link:hover,
+.school-link:hover,
+.footer-github-link:focus,
+.school-link:focus {
+    color: $orange-color;
+}
+

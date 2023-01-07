@@ -1,20 +1,13 @@
 .service-button, .welcome-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -69,8 +62,6 @@ button {
 }
 
 .navigation-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -87,7 +78,6 @@ button {
   font-size: 16px;
   line-height: 3.12;
   color: #010201;
-  -webkit-transition: color 250ms linear;
   transition: color 250ms linear;
 }
 .navigation-link:hover, .navigation-link:focus {
@@ -97,15 +87,9 @@ button {
 }
 
 .arrow-icon-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
   background-color: #D9D9D9;
@@ -118,8 +102,6 @@ button {
 }
 
 .social-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -130,7 +112,6 @@ button {
 .social-icon {
   width: 32px;
   height: 32px;
-  -webkit-transition: fill 250ms linear;
   transition: fill 250ms linear;
 }
 .social-link:hover .social-icon {
@@ -138,44 +119,28 @@ button {
 }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 42px 110px;
   background-color: #EDF2EC;
 }
 
 .header-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   padding-top: 98px;
   padding-right: 109px;
   padding-left: 109px;
   padding-bottom: 94px;
   background-color: #EDF2EC;
-  background-image: url("../../plants/images/leaf2.png"), url("../../plants/images/leaf1.png"), url("../../plants/images/leaf4.png"), url("../../plants/images/leaf3.png"), url("../../plants/images/leaf5.png");
+  background-image: url("/images/leaf2.png"), url("/images/leaf1.png"), url("/images/leaf4.png"), url("/images/leaf3.png"), url("/images/leaf5.png");
   background-repeat: no-repeat;
   background-size: 270px 177.84px, 100.23px 70.89px, 90.33px 71.57px, 200.49px 160.86px, 130.93px 80.01px;
   background-position: 128px 62px, 366.93px 172.99px, 109px 262.66px, 211.17px 270.6px, 400.12px 310px;
@@ -215,7 +180,6 @@ button {
   border: 2px solid #E06733;
   border-radius: 10px;
   background-color: transparent;
-  -webkit-transition: background-color 250ms linear, color 250ms linear;
   transition: background-color 250ms linear, color 250ms linear;
 }
 .welcome-button:hover, .welcome-button:focus {
@@ -224,15 +188,9 @@ button {
 }
 
 .about {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 94px 109px;
 }
 
@@ -267,8 +225,6 @@ button {
 }
 
 .service-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 90px;
 }
@@ -284,8 +240,6 @@ button {
 }
 
 .service-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -304,7 +258,6 @@ button {
   background-color: transparent;
   border: 1px solid #E06733;
   border-radius: 5px;
-  -webkit-transition: background-color 250ms linear, color 250ms linear;
   transition: background-color 250ms linear, color 250ms linear;
 }
 .service-button:hover, .service-button:focus {
@@ -313,15 +266,11 @@ button {
 }
 
 .gallery-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   row-gap: 55px;
-  -webkit-column-gap: 116px;
-     -moz-column-gap: 116px;
-          column-gap: 116px;
+  -moz-column-gap: 116px;
+       column-gap: 116px;
 }
 
 .thumb {
@@ -358,17 +307,13 @@ button {
 
 .prices {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-top: 40px;
   padding-right: 109px;
   padding-bottom: 115px;
   padding-left: 109px;
-  background-image: url("../../plants/images/leaf2prices.png"), url("../../plants/images/leaf1prices.png"), url("../../plants/images/leaf4prices.png"), url("../../plants/images/leaf3prices.png");
+  background-image: url("./images/leaf2prices.png"), url("./images/leaf1prices.png"), url("./images/leaf4prices.png"), url("./images/leaf3prices.png");
   background-repeat: no-repeat;
   background-size: 115.12px 85.82px, 50.97px 40.31px, 50.28px 45.08px, 90.46px 80.17px;
   background-position: 1179px 268px, 1280.11px 318.5px, 1190.1px 345.77px, 1228.5px 345.89px;
@@ -383,19 +328,10 @@ button {
 }
 
 .prices-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 332px;
   height: 282px;
   border: 1px solid #E3E1D5;
@@ -407,15 +343,9 @@ button {
 }
 
 .prices-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   padding-right: 40px;
   padding-left: 40px;
   width: 250px;
@@ -426,7 +356,6 @@ button {
   color: #000000;
   background-color: #EDF2EC;
   border-radius: 20px;
-  -webkit-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
 }
 .prices-button:hover, .prices-button:focus {
@@ -448,12 +377,8 @@ button {
 }
 
 .block-prices-contact-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .prices-contact-button {
@@ -468,7 +393,6 @@ button {
   background-color: transparent;
   border: 1px solid #E06733;
   border-radius: 5px;
-  -webkit-transition: background-color 250ms linear, color 250ms linear;
   transition: background-color 250ms linear, color 250ms linear;
 }
 .prices-contact-button:hover, .prices-contact-button:focus {
@@ -477,13 +401,11 @@ button {
 }
 
 .contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 60px;
   padding-bottom: 0;
   padding-left: 109px;
-  background-color: v #EDF2EC;
+  background-color: #EDF2EC;
 }
 
 .contacts-title {
@@ -497,22 +419,15 @@ button {
 }
 
 .contacts-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   width: 450px;
   height: 50px;
   padding-left: 20px;
   padding-right: 35px;
   background-color: #D6E7D2;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: 400;
   font-size: 20px;
   line-height: 2;
@@ -520,33 +435,21 @@ button {
   text-align: left;
   color: #717171;
   margin-top: 98px;
-  -webkit-transition: background-color 250ms linear, -webkit-box-shadow 250ms linear;
-  transition: background-color 250ms linear, -webkit-box-shadow 250ms linear;
   transition: background-color 250ms linear, box-shadow 250ms linear;
-  transition: background-color 250ms linear, box-shadow 250ms linear, -webkit-box-shadow 250ms linear;
 }
 .contacts-button:hover, .contacts-button:focus {
   background-color: #C1E698;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 40px 109px;
 }
 
 .footer-text-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -567,7 +470,6 @@ button {
 
 .footer-github-link,
 .school-link {
-  -webkit-transition: color 250ms linear;
   transition: color 250ms linear;
 }
 
